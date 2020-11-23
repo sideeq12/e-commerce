@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
+import React from "react";
 
-function App(){
+function HomePage(){
     return(
-        <div className="menu-content">
+        <div className="HomePage-content">
             <div className="box">
                 <div className="inner-box">
                     <h2>hello</h2>
@@ -43,4 +43,4 @@ function App(){
     )
 }
 
-export default App;
+export default HomePage;
