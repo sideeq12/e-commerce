@@ -3,8 +3,8 @@ import MenuItem from "../menu-item/menu-item";
 import "../directory/directory.css"
 
 class Directory extends Component{
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
         this.state ={
             content : [
                 {
@@ -29,7 +29,7 @@ class Directory extends Component{
                 },
                 {
                     id : 5,
-                    imageUrl : "https://www.thetrendspotter.net/wp-content/uploads/2019/09/Casual-Outfits.jpg",
+                    imageUrl : "https://i.pinimg.com/564x/73/43/45/73434555be546294fa6c2deacf5ae582.jpg",
                     title : "WOMEN",
                 }
             ]
@@ -37,11 +37,11 @@ class Directory extends Component{
     }
 
     render(){
+        console.log(MenuItem)
         return(
             <div className="HomePage-content">
-            {this.state.content.map(({title, imageUrl, id}) =>{
-                <MenuItem title={title} key={id} imageUrl={imageUrl}/>
-            })}
+                {this.state.content.map((text=><MenuItem title={text.title} imageUrl={text.imageUrl} key={text.id}/>))}
+           
             </div>
         )
     }

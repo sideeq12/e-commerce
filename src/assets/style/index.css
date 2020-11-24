@@ -28,4 +28,11 @@
    align-items: center;
    border: 1px solid black;
    padding: 5px;
+   background-color: white;
+   opacity: 0.8;
+}
+.HomePage-content .inner-box:hover{
+    cursor: pointer;
+    opacity: 0.6;
+    transition: .5s;
 }
