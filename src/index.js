@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
+import {BrowserRouter} from "react-router-dom"
 
 
 // Add bootstrap
@@ -10,6 +11,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './assets/style/index.css';
 
 ReactDOM.render(
-    <App/>,
+    <BrowserRouter>
+        <App/>
+    </BrowserRouter>
+    ,
     document.getElementById('root')
 );
