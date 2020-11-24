@@ -5,38 +5,32 @@ function HomePage(){
         <div className="HomePage-content">
             <div className="box">
                 <div className="inner-box">
-                    <h2>hello</h2>
-                    <span>Message</span>
+                    <h2>SHIRTS</h2>
+                    <span>SHOP NOW</span>
                 </div>
             </div>
             <div className="box">
                 <div className="inner-box">
-                    <h2>hello</h2>
-                    <span>Message</span>
+                    <h2>SHOES</h2>
+                    <span>SHOP NOW</span>
                 </div>
             </div>
             <div className="box">
                 <div className="inner-box">
-                    <h2>hello</h2>
-                    <span>Message</span>
+                    <h2>BAGS</h2>
+                    <span>SHOP NOW</span>
+                </div>
+            </div>
+            <div className="box1">
+                <div className="inner-box">
+                    <h2>WOMEN</h2>
+                    <span>SHOP NOW</span>
                 </div>
             </div>
             <div className="box">
                 <div className="inner-box">
-                    <h2>hello</h2>
-                    <span>Message</span>
-                </div>
-            </div>
-            <div className="box">
-                <div className="inner-box">
-                    <h2>hello</h2>
-                    <span>Message</span>
-                </div>
-            </div>
-            <div className="box">
-                <div className="inner-box">
-                    <h2>hello</h2>
-                    <span>Message</span>
+                    <h2>MEN</h2>
+                    <span>SHOP NOW</span>
                 </div>
             </div>
         </div>
