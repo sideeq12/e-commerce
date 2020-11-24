@@ -1,10 +1,9 @@
 import React, {Component} from 'react';
-import HomePage from "./homepages"
+import HomePage from "./pages/homepages";
+import "../assets/style/index.css"
 function App(){
     return(
-        <div className="menu-content">
             <HomePage />
-        </div>
     )
 }
 
