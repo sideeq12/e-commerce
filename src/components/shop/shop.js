@@ -20,4 +20,8 @@ class Shop extends Component{
             ]
         }
     }
+
+    render(){
+        
+    }
 }
