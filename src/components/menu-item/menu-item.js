@@ -1,10 +1,11 @@
 import React from "react";
+import {withRouter} from "react-router-dom"
 import "../menu-item/menu.css"
 
-function MenuItem({title, imageUrl}){ 
+function MenuItem({title, imageUrl, history,linkUrl}){ 
     return(
        
-<div className="box">
+<div className="box" onClick={()=>history.push(`${math.url}${linkUrl}`)}>
 <div className="back"  style={{
     backgroundImage : `url(${imageUrl})`
 }} ></div>
@@ -16,4 +17,4 @@ function MenuItem({title, imageUrl}){
 
     )
 }
-export default MenuItem;
+export default withRouter(MenuItem);

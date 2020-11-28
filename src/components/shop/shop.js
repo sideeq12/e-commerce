@@ -13,7 +13,7 @@ class Shop extends Component{
     render(){
         return(
             <div>
-                Hi there!
+                Hi there...
             </div>
         )
     }
