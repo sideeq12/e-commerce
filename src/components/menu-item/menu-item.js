@@ -5,7 +5,7 @@ import "../menu-item/menu.css"
 function MenuItem({title, imageUrl, history,linkUrl}){ 
     return(
        
-<div className="box" onClick={()=>history.push(`${math.url}${linkUrl}`)}>
+<div className="box" onClick={() => history.push(linkUrl)}>
 <div className="back"  style={{
     backgroundImage : `url(${imageUrl})`
 }} ></div>

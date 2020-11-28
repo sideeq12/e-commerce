@@ -13,8 +13,9 @@ class Shop extends Component{
     render(){
         return(
             <div>
-                Hi there...
+                Shop Page
             </div>
         )
     }
 }
+export default Shop;
