@@ -1,27 +1,20 @@
 import React, {Component} from "react";
+import collections from "./collection"
 
 class Shop extends Component{
 
     constructor(props){
         super(props);
         this.state = {
-            collections : [{
-                id : 1,
-                title : "HATS",
-                routeName : "Hats",
-                content : [{
-                    id : 1,
-                    name : "",
-                    imageUrl : "",
-                    price : ""
-                }
-            ]
-            }
-            ]
+            collections : collections
         }
     }
 
     render(){
-        
+        return(
+            <div>
+                Hi there!
+            </div>
+        )
     }
 }
