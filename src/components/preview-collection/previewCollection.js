@@ -1,16 +1,17 @@
 import * as React from "react";
 
-function Preview({title, items}){
+function Preview({title, content}){
     return(
         <div className="OverAll">
             <h2>{title}</h2>
             <div className="Preview">
-            {items.map(item => {
+            {content.map(item => {
                 return(
-                    <div>{item.name}</div>
+                    <div key={item.key}>{item.name}</div>
                 )
             })}
             </div>
         </div>
     )
 }
+export default Preview;
