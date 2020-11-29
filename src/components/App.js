@@ -7,13 +7,13 @@ import Shop from "./shop/shop"
 const Test = ()=>(<h3>testing</h3>)
 function App(){
     return(
-        <div>
+        
         <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/hats" component={Test} />
         <Route exact path="/shop" component={Shop} />
             </Switch>
-            </div>
+            
     )
 }
 

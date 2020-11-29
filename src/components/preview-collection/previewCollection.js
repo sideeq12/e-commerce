@@ -2,7 +2,7 @@ import * as React from "react";
 
 function Preview({title, content}){
     return(
-        <div className="OverAll">
+        <div className="PreviewAll">
             <h2>{title}</h2>
             <div className="Preview">
             {content.map(item => {

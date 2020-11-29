@@ -25,6 +25,10 @@
 .box1{
     width: 45%;
 }
+.previewAll{
+    height: 200px;
+    width: 200px;
+}
 .HomePage-content  .inner-box{
     display: flex;
     flex-direction: column;
