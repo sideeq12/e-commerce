@@ -20,7 +20,7 @@ class Shop extends Component{
         }
         return(
             <div className="Shop-Page">
-            <div style={{width : "200px", height: "200px"}}>
+            <div>
                  {collections.map(Display)}
                  </div>
                  checking out
