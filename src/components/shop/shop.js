@@ -3,6 +3,7 @@ import Collections from "./collection";
 import Preview from "../preview-collection/previewCollection"
 
 
+
 class Shop extends Component{
 
     constructor(props){
