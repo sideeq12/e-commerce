@@ -23,7 +23,7 @@ class Shop extends Component{
         return(
             <div className="Shop-Page">
             {collections.map(coll => <Preview title={coll.title} key={coll.id} content={coll.content} /> )}
-             checking out
+            
             </div>
         )
     }
