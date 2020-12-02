@@ -5,11 +5,8 @@ function Preview({title, content}){
         <div className="PreviewAll">
             <h2>{title}</h2>
             <div className="Preview">
-            {content.map(item => {
-                return(
-                    <div key={item.key}>{item.name}</div>
-                )
-            })}
+            {content.map(item =>  <div key={item.key}>{item.name}</div>
+            )}
             </div>
         </div>
     )
