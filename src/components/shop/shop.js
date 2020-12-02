@@ -14,9 +14,8 @@ class Shop extends Component{
     render(){
         let {collections} = this.state;
         const Display = (unit)=>{ 
-            return(
-               <collectionPreview content={unit.content} key={unit.id} title={unit.title}/>
-            )
+            return  <collectionPreview content={unit.content} key={unit.id} title={unit.title}/>
+            
         }
         return(
             <div className="Shop-Page">

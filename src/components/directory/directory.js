@@ -42,7 +42,6 @@ class Directory extends Component{
     }
 
     render(){
-        console.log(MenuItem)
         return(
             <div className="HomePage-content">
                 {this.state.content.map((text=><MenuItem title={text.title} imageUrl={text.imageUrl} key={text.id} linkUrl={text.linkUrl}/>))}
